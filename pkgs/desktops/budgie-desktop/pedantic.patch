@@ -1,0 +1,10 @@
+diff --git a/common.mk b/common.mk
+index e5de11f..7a51355 100644
+--- a/common.mk
++++ b/common.mk
+@@ -1,4 +1,4 @@
+-AM_CFLAGS =  -fstack-protector -Wall -pedantic \
++AM_CFLAGS =  -fstack-protector -Wall \
+         -Wstrict-prototypes -Wundef -fno-common \
+         -Werror-implicit-function-declaration \
+         -Wformat -Wformat-security -Werror=format-security \

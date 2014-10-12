@@ -11177,6 +11177,8 @@ let
 
   ### DESKTOP ENVIRONMENTS
 
+  budgie = callPackage ../desktops/budgie-desktop { upower = gnome3_12.upower; };
+
   cinnamon = recurseIntoAttrs rec {
     callPackage = newScope pkgs.cinnamon;
     inherit (gnome3) gnome_common libgnomekbd gnome-menus zenity;
